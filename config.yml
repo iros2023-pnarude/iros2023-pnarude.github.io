@@ -1,0 +1,250 @@
+baseurl: "https://example.org/"
+title: "PNARUDE"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "PNARUDE Workshop"
+  ShortName: "PNARUDE @IROS"
+  Description: "Perception and Navigation for Autonomous Robotics in Unstructured and Dynamic Environments"
+  Date: "October 27th"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Location: "@ IROS 2022"
+  Venue: ""
+  Address: ""
+  City:  "Kyoto"
+  State: "Japan"
+  Images: ["/img/badge.png"]
+  # GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - dates
+    - speakers
+    - schedule
+    - organizers
+    - submission
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "Overview"
+    dates: "Important Dates"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    organizers: "Organizers"
+    submission: "Submission"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  # CallToAction:
+  #   text: "Register now!"
+  #   link: "http://register.example.com"
+
+  # List of Sponsors
+  Speakers:
+    - name: "Hugo"
+      logo: "/img/hugo.png"
+      url: "http://gohugo.io"
+
+  # The entire schedule
+  Schedule:
+    - name: "Opening Remarks by the PNARUDE Organizers"
+      time: "9:00"
+
+    - name: "Perception and Sensor Fusion"
+      headline: "Topic 1"
+      time: "9:10"
+
+    - name: "Prof. Cyrill Stachniss"
+      photo: "/img/stachniss.jpg"
+      bio: "TODO Bio Stachniss"
+      company: "University of Bonn, Germany"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Prof. Yusuke Tamura"
+      photo: "/img/tamura.png"
+      bio: "TODO Bio Tamura"
+      company: "Tohoku University, Japan"
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Coffee Break"
+      time: "10:10"
+
+    - name: "Navigation and Mobility"
+      headline: "Topic 2"
+      time: "10:20"
+
+    - name: "Dr. Marija Popović"
+      photo: "/img/popovic.jpg"
+      bio: "TODO Bio Popovic"
+      company: "University of Bonn, Germany"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Prof. Margarita Chli"
+      photo: "/img/chli.jpg"
+      bio: "TODO Bio Chli"
+      company: "ETH Zurich, Switzerland"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Lunch"
+      time: "11:20"
+
+    - name: "AI-based Autonomy"
+      time: "13:00"
+      headline: "Topic 3"
+
+    - name: "Prof. Huijing Zhao"
+      photo: "/img/zhao.jpg"
+      bio: "TODO Bio Zhao"
+      company: "Peking University, China"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Prof. Fracois Pomerleau"
+      photo: "/img/pomerleau.jpg"
+      bio: "TODO Bio Pomerleau"
+      company: "Laval University, Canada"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Coffee Break"
+      time: "14:00"
+
+    - name: "Industry Applications"
+      headline: "Topic 4"
+      time: "14:10"
+
+    - name: "Dr. Roland Lenain"
+      photo: "/img/lenain.jpg"
+      bio: "TODO Bio Lenain"
+      company: "INRAE, France"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Prof. Danwei Wang"
+      photo: "/img/wang.jpg"
+      bio: "TODO Bio Wang"
+      company: "Nanyang Technological University, Singapore"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Invited Talk"
+        description: "TODO Talk Description"
+        time: ""
+
+    - name: "Oral Presentations on the accepted Workshop Papers"
+      time: "15:10"
+
+    - name: "Roundtable Discussion: Future Advances and Research Directions"
+      time: "15:40"
+
+    - name: "Closing Remarks"
+      time: "16:30"
+
+  Organizers:
+    - name: "Prof. Danwei Wang"
+      photo: "/img/wang.jpg"
+      university: "Nanyang Technological University, Singapore"
+      url: "https://personal.ntu.edu.sg/edwwang/"
+      mail: "yueyufeng@bit.edu.cn"
+      type: "main"
+
+    - name: "Prof. Yufeng Yue"
+      photo: "/img/yue.jpg"
+      university: "University of Freiburg"
+      url: "https://www.researchgate.net/profile/Yufeng-Yue"
+      mail: "valada@cs.uni-freiburg.de"
+      type: "co"
+
+    - name: "Dr. Philippe Martinet"
+      photo: "/img/martinet.jpg"
+      university: "INRIA Sophia-Antipolis"
+      url: "https://project.inria.fr/chorale/members/philippe-martinet/"
+      mail: "philippe.martinet@inria.fr"
+      type: "co"
+
+    - name: "Dr. Christian Laugier"
+      photo: "/img/laugier.jpg"
+      university: "INRIA Grenoble Rhône-Alpes"
+      url: "https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en"
+      mail: "christian.laugier@inria.fr"
+      type: "co"
+
+    - name: "Dr. Roland Lenain"
+      photo: "/img/lenain.jpg"
+      university: "INRAE Paris"
+      url: "https://www6.clermont.inrae.fr/tscf/Annuaire/Pages-chercheurs/Roland-Lenain"
+      mail: "roland.lenain@intae.fr"
+      type: "co"
+
+    - name: "Prof. Abhinav Valada"
+      photo: "/img/valada.jpg"
+      university: "University of Freiburg"
+      url: "https://rl.uni-freiburg.de/people/valada"
+      mail: "valada@cs.uni-freiburg.de"
+      type: "co"
+
+    - name: "Dr. Jens Behley"
+      photo: "/img/behley.jpg"
+      university: "University of Bonn"
+      url: "https://www.ipb.uni-bonn.de/people/jens-behley/"
+      mail: "jens.behley@igg.uni-bonn.de"
+      type: "co"
+
+    - name: "Peter Mortimer"
+      photo: "/img/mortimer.jpg"
+      university: "Bundeswehr University of Munich"
+      url: "https://www.unibw.de/tas-en/institute/team/peter-jan-mortimer"
+      mail: "peter.mortimer@unibw.de"
+      type: "co"
+
+    - name: "Raphael Hagmanns"
+      photo: "/img/hagmanns.jpg"
+      university: "Fraunhofer IOSB"
+      url: "https://raphaelhagmanns.gitlab.io/"
+      mail: "raphael.hagmanns@iosb.fraunhofer.de"
+      type: "co"
+
+  Submission:

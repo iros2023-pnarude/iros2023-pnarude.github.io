@@ -1,0 +1,18 @@
+<nav id="nav">
+  <ul class="wrapper">
+    <li class="nav-item-title">
+      <a href="#" title="{{ $.Site.Params.ShortName }}" class="nav-link-title">
+        {{ $.Site.Params.ShortName }}
+      </a>
+    </li>
+    {{ range $section := $.Site.Params.Sections }}
+      <li class="nav-item">
+        <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
+          {{ index $.Site.Params.Titles $section }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
+
+<hr>
