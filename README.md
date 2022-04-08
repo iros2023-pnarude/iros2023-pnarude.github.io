@@ -1,6 +1,16 @@
 # PNARUDE Workshop
 
-Hugo based static webpage. Based on
+Hugo based static webpage. Based on [hugo-conference](https://github.com/jweslley/hugo-conference). 
+
+## TODO
+
+- [x] Add speaker links to webpage from name and image
+- [ ] Add submission details
+- [ ] Add description for speaker bios
+- [ ] Add talk descriptions
+- [x] Add contact mail button for organizers
+- [x] Customize organizer list
+- [ ] Better Overview Text
 
 ## Building locally
 
@@ -16,7 +26,7 @@ Hugo based static webpage. Based on
 
 ## Customizing the workshop site
 
-All the site information can be found in the `config.yml` file. Just edit it to make changes.
+Most of the site information can be found in the `config.yml` file. Just edit it to make changes.
 By default, the site have the following sections:
 
 - About - to describe what's the main goal of the workshop
@@ -25,6 +35,10 @@ By default, the site have the following sections:
 - Organizer - list of organizers
 
 Ps: It's important to change the `baseurl` property from `config.yml` file in order to reflect your settings.
+
+New images go into the static/img folder. 
+
+Other content, for example the About section, is located at [.themes/hugo-conference/layouts/partials/about.html](.themes/hugo-conference/layouts/partials/about.html).
 
 ## License
 
