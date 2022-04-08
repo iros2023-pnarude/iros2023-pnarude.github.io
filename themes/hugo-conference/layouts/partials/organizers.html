@@ -10,9 +10,16 @@
         </span>
         {{ end }}
 
-        <h3 class="organizer-name">{{ .name }}
-            {{ with .link }}
-            <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
+        <h3 class="organizer-name">
+            {{ with $organizer.url }}
+                <a class="organizer-name-url" href="{{ $organizer.url }}" target="_blank" title="{{ $organizer.name }}"> {{ $organizer.name }}</a>
+            {{ else }}
+                {{ .name }}
+            {{ end }}
+            {{ with .email }}
+            <a href="mailto:{{ $organizer.email }}" title="Personal Site">
+                <i class="mail fa fa-envelope" aria-hidden="true"> </i>
+            </a>
             {{ end }}
         </h3>
         <h3 class="organizer-university">{{ .university }}

@@ -25,7 +25,7 @@
               {{ .name }}
               <span class="speakers-company">{{ .company }}</span>
             </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
+            <td class="schedule-description">{{ .presentation.title }}</td>
           </tr>
         {{ else if ne .headline nil}}
           <tr class="schedule-other">
