@@ -6,13 +6,24 @@ Hugo based static webpage. Based on [hugo-conference](https://github.com/jweslle
 
 - [x] Add speaker links to webpage from name and image
 - [ ] Add submission details
-- [ ] Add description for speaker bios
+- [x] Add description for speaker bios
 - [ ] Add talk descriptions
 - [x] Add contact mail button for organizers
 - [x] Customize organizer list
 - [ ] Better Overview Text
 
 ## Building locally
+
+### Using docker
+
+``` bash
+git clone https://github.com/iros2022-pnarude/iros2022-pnarude.github.io
+cd iros2022-pnarude.github.io
+docker run --rm -it -v $(pwd):/src klakegg/hugo server
+```
+and then see the result at [http://localhost:1313/](http://localhost:1313/)
+
+### Using hugo
 
 1. Install [Hugo](https://gohugo.io)
 2. Clone this project:
