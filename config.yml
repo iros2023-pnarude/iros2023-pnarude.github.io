@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: "https://iros2022-pnarude.github.io/"
 title: "PNARUDE"
 canonifyurls: true
 theme: "hugo-conference"
