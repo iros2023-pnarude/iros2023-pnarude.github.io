@@ -188,14 +188,14 @@ params:
       photo: "/img/wang.jpg"
       university: "Nanyang Technological University, Singapore"
       url: "https://personal.ntu.edu.sg/edwwang/"
-      email: "yueyufeng@bit.edu.cn"
+      email: "edwwang@ntu.edu.sg"
       type: "main"
 
     - name: "Prof. Yufeng Yue"
       photo: "/img/yue.jpg"
-      university: "University of Freiburg"
+      university: "Beijing Institute of Technology"
       url: "https://www.researchgate.net/profile/Yufeng-Yue"
-      email: "valada@cs.uni-freiburg.de"
+      email: "yueyufeng@bit.edu.cn"
       type: "co"
 
     - name: "Dr. Philippe Martinet"
