@@ -608,6 +608,13 @@ font-size: 1.4em;
 /* =============================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+  .organizer-item {
+    min-width: unset;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .wrapper {
     width: 100%;
