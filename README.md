@@ -19,7 +19,7 @@ Hugo based static webpage. Based on [hugo-conference](https://github.com/jweslle
 ``` bash
 git clone https://github.com/iros2022-pnarude/iros2022-pnarude.github.io
 cd iros2022-pnarude.github.io
-docker run --rm -it -v $(pwd):/src klakegg/hugo server
+docker run --rm -it --net=host -v $(pwd):/src klakegg/hugo server
 ```
 and then see the result at [http://localhost:1313/](http://localhost:1313/)
 
