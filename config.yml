@@ -8,7 +8,7 @@ GoogleAnalytics: ""
 params:
   # Conference info
   Name: "PNARUDE Workshop"
-  ShortName: "PNARUDE @IROS"
+  ShortName: "PNARUDE @ IROS"
   Description: "Perception and Navigation for Autonomous Robotics in Unstructured and Dynamic Environments"
   Date: "October 27th"
   # Price: "Only $100" # If your event is free, just comment this line
@@ -131,9 +131,9 @@ params:
         description: "TODO Talk Description"
         time: ""
 
-    - name: "Prof. Fracois Pomerleau"
+    - name: "Prof. François Pomerleau"
       photo: "/img/pomerleau.jpg"
-      bio: "Fracois Pomerleau is a professor in the Computer Science and Software Engineering Department at Laval University in Canada. His research interests include 3D reconstruction of environments using laser data, autonomous navigation, search and rescue activities, environmental monitoring, trajectory planning and scientific methodology applied to robotics."
+      bio: "François Pomerleau is a professor in the Computer Science and Software Engineering Department at Laval University in Canada. His research interests include 3D reconstruction of environments using laser data, autonomous navigation, search and rescue activities, environmental monitoring, trajectory planning and scientific methodology applied to robotics."
       company: "Laval University, Canada"
       link:
         href: ""
