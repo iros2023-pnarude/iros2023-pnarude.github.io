@@ -248,3 +248,16 @@ params:
       type: "co"
 
   Submission:
+    topics:
+      - name: "Perception and Navigation in Unstructured & Dynamic Environments"
+      - name: "Mobility in Unstructured Environments"
+      - name: "Detection, Tracking and Classification"
+      - name: "Feature Extraction and Feature Selection"
+      - name: "Collision Prediction and Avoidance"
+      - name: "Path Planning and Re-Planning"
+      - name: "Multi-Sensor Calibration and Fusion"
+      - name: "SLAM in Unstructured Environments"
+      - name: "Environmental Mapping and Reconstruction"
+      - name: "Deep Learning Applied in Unstructured Environments"
+      - name: "Deep Reinforcement Learning Applied in Unstructured Environments"
+      - name: "Decision-making by taking into account Human-Robot Interactions"
