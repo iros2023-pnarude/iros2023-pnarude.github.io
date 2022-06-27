@@ -1,8 +1,15 @@
 <h2 class="section-title">{{ .Titles.submission }}</h2>
-<p style=margin-bottom:0.5em> All submitted papers will be reviewed on the basis of technical quality, relevance, significance, and clarity. Please submit your papers following the IROS2022 format guidelines. For details see the following links:</p>
+<p style=margin-bottom:0.5em>We invite the submission of extended abstracts on the following topics of interest:</p>
+<ul class="listing">
+    {{ range .Submission.topics }}
+    <li style=margin-left:0.5em>- <i>{{.name}}</i></li>
+    {{ end }}
+</ul>
+<p style=margin-bottom:0.5em> All submitted extended abstracts will be reviewed on the basis of technical quality, relevance, significance, and clarity. Submitted extended abstracts should have 4-6 pages. We also accept submissions of previously presented work, that you have extended on and work that is being published as part of the IROS2022 main conference. Upon acceptance, you will be able to present your submission as part of the workshop. All accepted submission will be available on the workshop website.</p> 
+<p style=margin-bottom:0.5em>Please submit your extended abstracts following the IROS2022 format guidelines. For details see the following links:</p>
 <ul class="listing">
     <li> - <a href="http://ras.papercept.net/conferences/support/support.php">Format Guidelines</a></li>
     <li> - <a href="http://ras.papercept.net/conferences/support/tex.php">LaTex Template</a></li>
     <li> - <a href="http://ras.papercept.net/conferences/support/word.php">MS Word Template</a></li>
 </ul>
-<p>Please send your submission to <a href="mailto:iros2022-pnarude@googlegroups.com">iros2022-pnarude@googlegroups.com</a>. Submitted papers should have 4-6 pages.</p>
+<p>Please send your submission to <a href="mailto:iros2022-pnarude@googlegroups.com">iros2022-pnarude@googlegroups.com</a>.</p>
