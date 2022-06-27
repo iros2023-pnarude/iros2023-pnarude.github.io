@@ -5,12 +5,12 @@ Hugo based static webpage. Based on [hugo-conference](https://github.com/jweslle
 ## TODO
 
 - [x] Add speaker links to webpage from name and image
-- [ ] Add submission details
+- [x] Add submission details
 - [x] Add description for speaker bios
 - [ ] Add talk descriptions
 - [x] Add contact mail button for organizers
 - [x] Customize organizer list
-- [ ] Better Overview Text
+- [x] Better Overview Text
 
 ## Building locally
 
