@@ -216,7 +216,7 @@ params:
       photo: "/img/lenain.jpg"
       university: "INRAE Paris"
       url: "https://www6.clermont.inrae.fr/tscf/Annuaire/Pages-chercheurs/Roland-Lenain"
-      email: "roland.lenain@intae.fr"
+      email: "roland.lenain@inrae.fr"
       type: "co"
 
     - name: "Prof. Abhinav Valada"
