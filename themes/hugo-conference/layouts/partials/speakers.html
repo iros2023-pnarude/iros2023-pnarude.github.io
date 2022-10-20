@@ -2,6 +2,7 @@
 
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "presentation" "ne" nil) }}
+  {{ if ne .photo nil}}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
       <span class="speaker-photo">
@@ -20,5 +21,6 @@
     </h3>
     <p class="speakers-bio">{{ .bio }}</p>
   </li>
+  {{ end }}
 {{ end }}
 </ul>

@@ -15,6 +15,9 @@
         {{ if ne .presentation nil }}
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
+            {{ if ne .spotlight nil }}
+            <td class="schedule-slot">
+            {{else}}
             <td class="schedule-slot">
             {{ with .photo }}
               <span class="speaker-photo">
@@ -22,10 +25,20 @@
               </span>
             {{ end }}
 
+            {{end}}
+
               {{ .name }}
               <span class="speakers-company">{{ .company }}</span>
             </td>
+            {{ if ne .spotlight nil }}
+              <td class="spotlight-description">
+              {{range .spotlight.titles}}
+                {{ . }}<br>
+              {{end}}
+              </td>
+            {{ else }}
             <td class="schedule-description">{{ .presentation.title }}</td>
+            {{ end }}
           </tr>
         {{ else if ne .headline nil}}
           <tr class="schedule-other">

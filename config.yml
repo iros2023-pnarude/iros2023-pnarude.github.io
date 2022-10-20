@@ -8,11 +8,11 @@ GoogleAnalytics: ""
 params:
   # Conference info
   Name: "PNARUDE Workshop"
-  ShortName: "PNARUDE @ IROS"
+  ShortName: "PNARUDE @ IROS'22"
   Description: "Perception and Navigation for Autonomous Robotics in Unstructured and Dynamic Environments"
   Date: "October 27th"
   # Price: "Only $100" # If your event is free, just comment this line
-  Location: "@ IROS 2022"
+  Location: "Room C-2 @ ICC Kyoto"
   Venue: ""
   Address: ""
   City:  "Kyoto"
@@ -68,7 +68,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "Perception for Robots in the Fields"
         description: "TODO Talk Description"
         time: ""
 
@@ -77,7 +77,7 @@ params:
       bio: "Yusuke Tamura is currently an Associate Professor with the Department of Robotics, Graduate School of Engineering, Tohoku University, Sendai, Japan. His research interests include human–robot interaction, mobile robotics, and remote control technology."
       company: "Tohoku University, Japan"
       presentation:
-        title: "Invited Talk"
+        title: "Towards safe and smooth Coexistence of mobile Robots and inattentive Humans"
         description: "TODO Talk Description"
         time: ""
 
@@ -86,7 +86,7 @@ params:
 
     - name: "Navigation and Mobility"
       headline: "Topic 2"
-      time: "10:20"
+      time: ""
 
     - name: "Dr. Marija Popović"
       photo: "/img/popovic.jpg"
@@ -96,27 +96,40 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "Mapping and Planning for Autonomous Robotic Decision-Making"
         description: "TODO Talk Description"
-        time: ""
+        time: "10:20"
 
-    - name: "Prof. Margarita Chli"
-      photo: "/img/chli.jpg"
-      bio: "Margarita Chli  is an assistant professor and leader of the Vision for Robotics Lab at ETH Zürich in Switzerland. Chli is a leader in the field of computer vision and robotics and was on the team of researchers to develop the first fully autonomous helicopter with onboard localization and mapping. Her research currently focuses on developing visual perception and intelligence in flying autonomous robotic systems."
+    - name: "Ruben Mascaro Palliser"
+      photo: "/img/palliser.jpg"
+      bio: "Ruben started his PhD at the Vision for Robotics Lab, lead by Margarita Chli, in October 2018. He has previously worked as a software engineer in the automotive industry and as a research assistant at the Automatic Control Department (ESAII) of the Polytechnic University of Catalonia. His main interests are vision-based localization, mapping and higher-level scene understanding algorithms for autonomous robots."
       company: "ETH Zurich, Switzerland"
       link:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "Semantic Scene Understanding for Robotic Navigation and Mobility in Unstructured Environments"
         description: "TODO Talk Description"
-        time: ""
+        time: "10:50"
+
+    - name: "Oral Spotlight Presentations #1"
+      presentation:
+        title: "test"
+        time: "11:20"
+      spotlight:
+        titles: [
+          "Ayoung Kim on \"Radar-based Angular Correction for Tightly-coupled LiDAR Odometry\"",
+          "Felicia Ruppel on \"Can Transformer Attention Spread Give Insights Into Uncertainty of and Tracked Objects?\"",
+          "Diego Martinez Baselga on \"Deep Reinforcement Learning oriented for Real World Dynamic Scenario\"",
+          "Zhenyu Wu on \"SectionKey: 3-D Semantic Point Cloud Descriptor for Place Recognition\"",
+          "Riccardo Polvara on \"Collection and Evaluation of a Long-Term 4D Agri-Robotic Dataset\""
+        ]
 
     - name: "Lunch"
-      time: "11:20"
+      time: "12:00"
 
     - name: "AI-based Autonomy"
-      time: "13:00"
+      time: ""
       headline: "Topic 3"
 
     - name: "Prof. Huijing Zhao"
@@ -127,9 +140,9 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "Understanding the Challenges When 3D Semantic Segmentation Faces Class Imbalanced and OOD Data"
         description: "TODO Talk Description"
-        time: ""
+        time: "13:00"
 
     - name: "Prof. François Pomerleau"
       photo: "/img/pomerleau.jpg"
@@ -139,16 +152,16 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "From subarctic to subterranean environments: how to localize in unstructured environments?"
         description: "TODO Talk Description"
-        time: ""
+        time: "13:30"
 
     - name: "Coffee Break"
       time: "14:00"
 
-    - name: "Industry Applications"
+    - name: "Applications of AI"
       headline: "Topic 4"
-      time: "14:10"
+      time: ""
 
     - name: "Dr. Roland Lenain"
       photo: "/img/lenain.jpg"
@@ -158,9 +171,9 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "Robotics in Agriculture: Toward the adaption of Robot(s) Behaviors to meet new Agroecological Expectation"
         description: "TODO Talk Description"
-        time: ""
+        time: "14:10"
 
     - name: "Prof. Danwei Wang"
       photo: "/img/wang.jpg"
@@ -170,18 +183,31 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Invited Talk"
+        title: "Multi-modal Perception in adverse Weather Conditions"
         description: "TODO Talk Description"
-        time: ""
+        time: "14:40"
 
-    - name: "Oral Presentations on the accepted Workshop Papers"
+    - name: "Coffee Break"
       time: "15:10"
+
+    - name: "Oral Spotlight Presentations #2"
+      presentation:
+        title: "test"
+        time: "15:20"
+      spotlight:
+        titles: [
+          "Verdoja Francesco on \"Generating people flow from architecture of real unseen environments\"",
+          "Carmelo Scribano on \"CERBERUS: Simple and Effective All-In-One Automotive Perception Model with Multi Task Learning\"",
+          "Yinan Deng on \"S-MKI: Incremental Dense Semantic Occupancy Reconstruction Through Multi-Entropy Kernel Inference.\"",
+          "César Debeunne on \"Design of a bi-monocular Visual Odometry System for Lava Tubes exploration\"",
+          "Yash Goel on \"Predicting Dense and Context-aware Cost Maps for Semantic Robot Navigation\""
+          ]
 
     - name: "Roundtable Discussion: Future Advances and Research Directions"
       time: "15:40"
 
     - name: "Closing Remarks"
-      time: "16:30"
+      time: "16:10"
 
   Organizers:
     - name: "Prof. Danwei Wang"
