@@ -547,6 +547,11 @@ font-size: 1.4em;
   font-size: 16px;
 }
 
+.spotlight-slot {
+  /* This rule does not seem to work. Is overwritten by .schedule-slot */
+    width: 150px;
+}
+
 .schedule-slot {
   width: 250px;
   font-size: 16px;
@@ -618,6 +623,12 @@ font-size: 1.4em;
    Media Queries
    ========================================================================== */
 
+  td.spotlight-description {
+    font-size: 1.3em;
+    padding: 20px 5px;
+    text-align: center;
+  }
+
 @media only screen and (max-width: 600px) {
   .organizer-item {
     min-width: unset;
@@ -675,7 +686,9 @@ font-size: 1.4em;
   }
   .schedule-tbl td.schedule-description {
     font-size: 12px;
+    text-align: center;
   }
+
   /* partners */
   .sponsor-item,
   .partner-item {
