@@ -118,7 +118,7 @@ params:
         time: "11:20"
       spotlight:
         titles: [
-          "Ayoung Kim on \"Radar-based Angular Correction for Tightly-coupled LiDAR Odometry\"",
+          "Hyesu Jang on \"Radar-based Angular Correction for Tightly-coupled LiDAR Odometry\"",
           "Felicia Ruppel on \"Can Transformer Attention Spread Give Insights Into Uncertainty of and Tracked Objects?\"",
           "Diego Martinez Baselga on \"Deep Reinforcement Learning oriented for Real World Dynamic Scenario\"",
           "Zhenyu Wu on \"SectionKey: 3-D Semantic Point Cloud Descriptor for Place Recognition\"",
