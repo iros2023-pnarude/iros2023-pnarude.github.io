@@ -848,10 +848,6 @@ color: #e7e7e7;
 color: #fff;
 }
 
-.nav-item:last-child .nav-link{
-  color: #f0a303 ;
-}
-
 /* =============================================================================
    HEADER
    ========================================================================== */
@@ -1024,6 +1020,24 @@ color: #fff;
 
 .schedule-headline {
   color: #000;
+}
+
+.zoom-text {
+  margin-top: 3em;
+  color: white;
+}
+
+img.zoom-icon {
+  height: 5em !important;
+}
+
+img.pdf-download-icon {
+  height: 1.4em !important;
+}
+
+img.video-download-icon {
+  height: 1.4em !important;
+  margin-left: 1em;
 }
 
 /* =============================================================================
