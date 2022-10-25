@@ -24,20 +24,22 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - dates
+#    - dates
     - speakers
     - schedule
+    - papers
     - organizers
-    - submission
+#    - submission
 
   # Titles which you can translate to other languages
   Titles:
     about: "Overview"
-    dates: "Important Dates"
+#    dates: "Important Dates"
     speakers: "Speakers"
     schedule: "Schedule"
+    papers: "Accepted Papers"
     organizers: "Organizers"
-    submission: "Submission"
+#    submission: "Submission"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -117,13 +119,37 @@ params:
         title: "test"
         time: "11:20"
       spotlight:
-        titles: [
-          "Hyesu Jang on \"Radar-based Angular Correction for Tightly-coupled LiDAR Odometry\"",
-          "Felicia Ruppel on \"Can Transformer Attention Spread Give Insights Into Uncertainty of and Tracked Objects?\"",
-          "Diego Martinez Baselga on \"Deep Reinforcement Learning oriented for Real World Dynamic Scenario\"",
-          "Zhenyu Wu on \"SectionKey: 3-D Semantic Point Cloud Descriptor for Place Recognition\"",
-          "Riccardo Polvara on \"Collection and Evaluation of a Long-Term 4D Agri-Robotic Dataset\""
-        ]
+        titles: 
+          -
+            authors: "Hyesu Jang, Minwoo Jung, Sangwoo Jung and Ayoung Kim"
+            presenter: "Hyesu Jang" 
+            title: "Radar-based Angular Correction for Tightly-coupled LiDAR Odometry"
+            url: "pdf/PNARUDE_IROS2022_Hyesu_Jang_Radar-based_Angular_Correction_for_TIghtly-coupled_LiDAR_Odometry.pdf"
+            video: 
+          - 
+            authors: "Felicia Ruppel, Florian Faion, Claudius Gläser and Klaus Dietmayer"
+            presenter: "Felicia Ruppel"
+            title: "Can Transformer Attention Spread Give Insights Into Uncertainty of and Tracked Objects?"
+            url: "pdf/PNARUDE_IROS2022_Felicia_Ruppel_Can_Transformer_Attention_Spread_Give_Insights_Into_Uncertainty_of_Detected_and_Tracked_Objects.pdf"
+            video:
+          -
+            authors: "Diego Martı́nez, Luis Riazuelo and Luis Montano"
+            presenter: "Diego Martı́nez"
+            title: "Deep Reinforcement Learning oriented for Real World Dynamic Scenario"
+            url: "pdf/PNARUDE_IROS2022_Diego_Martinez_Baselga_Deep_Reinforcement_Learning_oriented_for_Real_World_Dynamic_Scenario.pdf"
+            video: 
+          -
+            authors: "Shutong Jin, Zhenyu Wu, Chunyang Zhao, Jun Zhang, Guohao Peng and Danwei Wang"
+            presenter: "Zhenyu Wu"
+            title: "SectionKey: 3-D Semantic Point Cloud Descriptor for Place Recognition"
+            url: "pdf/PNARUDE_IROS2022_Shutong_Jin_Zhenyu_Wu_SectionKey_3-D_Semantic_Point_Cloud_Descriptor_for_Place_Recognition.pdf"
+            video:
+          -
+            authors: "Riccardo Polvara, Sergi Molina Mellado, Ibrahim Hroob, Grzegorz Cielniak and Marc Hanheide"
+            presenter: "Riccardo Polvara"
+            title: "Collection and Evaluation of a Long-Term 4D Agri-Robotic Dataset"
+            url: "pdf/PNARUDE_IROS2022_Riccardo_Polvara_Collection_and_Evaluation_of_a_Long-Term_4D_Agri-Robotic_Dataset.pdf"
+            video:
 
     - name: "Lunch"
       time: "12:00"
@@ -195,13 +221,37 @@ params:
         title: "test"
         time: "15:20"
       spotlight:
-        titles: [
-          "Verdoja Francesco on \"Generating people flow from architecture of real unseen environments\"",
-          "Carmelo Scribano on \"CERBERUS: Simple and Effective All-In-One Automotive Perception Model with Multi Task Learning\"",
-          "Yinan Deng on \"S-MKI: Incremental Dense Semantic Occupancy Reconstruction Through Multi-Entropy Kernel Inference.\"",
-          "César Debeunne on \"Design of a bi-monocular Visual Odometry System for Lava Tubes exploration\"",
-          "Yash Goel on \"Predicting Dense and Context-aware Cost Maps for Semantic Robot Navigation\""
-          ]
+        titles: 
+          -
+            authors: "Francesco Verdoja, Tomasz Piotr Kucner, Ville Kyrki"
+            presenter: "Verdoja Francesco"
+            title: "Generating people flow from architecture of real unseen environments"
+            url: "pdf/PNARUDE_IROS2022_Francesco_Verdoja_Generating_people_flow_from_architecture_of_real_unseen_environments.pdf"
+            video:
+          -
+            authors: "Carmelo Scribano, Giorgia Franchini, Ignacio Sañudo Olmedo and Marko Bertogna"
+            presenter: "Carmelo Scribano"
+            title: "CERBERUS: Simple and Effective All-In-One Automotive Perception Model with Multi Task Learning"
+            url: "pdf/PNARUDE_IROS2022_Carmelo_Scribano_CERBERUS_Simple_and_Effective_All_In_One_Automotive_Perception_Model_with_Multi_Task_Learning.pdf"
+            video: 
+          -
+            authors: "Yinan Deng, Meiling Wang, Danwei Wang and Yufeng Yue"
+            presenter: "Yinan Deng"
+            title: "S-MKI: Incremental Dense Semantic Occupancy Reconstruction Through Multi-Entropy Kernel Inference"
+            url: "pdf/PNARUDE_IROS2022_Yinan_Deng_S-MKI_Incremental_Dense_Semantic_Occupancy_Reconstruction_Through_Multi-Entropy_Kernel_Inference.pdf"
+            video: "video/PNARUDE_IROS2022_Video-Presentation_Yinan_Deng_S-MKI_Incremental_Dense_Semantic_Occupancy_Reconstruction_Through_Multi-Entropy_Kernel_Inference.mp4"
+          -
+            authors: "César Debeunne, Alex Torres and Damien Vivet"
+            presenter: "César Debeunne"
+            title: "Design of a bi-monocular Visual Odometry System for Lava Tubes exploration"
+            url: "pdf/PNARUDE_IROS2022_Cesar_Debeunne_Design_of_a_bi-monocular_Visual_Odometry_System_for_Lava_Tubes_exploration.pdf"
+            video: "video/PNARUDE_IROS2022_Video-Presentation_Cesar_Debeunne_Design_of_a_bi-monocular_Visual_Odometry_System_for_Lava_Tubes_exploration.mp4"
+          - 
+            authors: "Yash Goel, Narunas Vaskevicius, Luigi Palmieri, Nived Chebrolu, Cyrill Stachniss"
+            presenter: "Yash Goel"
+            title: "Predicting Dense and Context-aware Cost Maps for Semantic Robot Navigation"
+            url: "pdf/PNARUDE_IROS2022_Yash_Goel_Narunas_Vaskevicius_Predicting_Dense_and_Context-aware_Cost_Maps_for_Semantic_Robot_Navigation.pdf"
+            video: 
 
     - name: "Roundtable Discussion: Future Advances and Research Directions"
       time: "15:50"

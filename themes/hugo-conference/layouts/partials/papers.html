@@ -1,0 +1,18 @@
+<h2 class="section-title">{{ .Titles.papers }}</h2>
+<p style=margin-bottom:0.5em>The accepted extended abstracts for the PNARUDE'22 workshop at IROS 2022 can be accessed below:</p>
+
+{{ range $slot := .schedule }}
+{{ if ne .presentation nil }}
+{{ if ne .spotlight nil }}
+{{ if ne .spotlight nil }}
+{{range .spotlight.titles}}
+<p style=margin-bottom:1.5em>
+    <b>{{ .title }}</b><br>
+    {{ .authors }}<br>
+    <a href="{{ .url }}"><img class="pdf-download-icon" src="/img/file-pdf-solid.svg" alt="PDF Paper Download"/></a> 
+    {{ if ne .video nil }}<a href="{{ .video }}"><img class="video-download-icon" src="/img/video-solid.svg" alt="Video Presentation Download"/></a> {{ end }}<br></p> 
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}

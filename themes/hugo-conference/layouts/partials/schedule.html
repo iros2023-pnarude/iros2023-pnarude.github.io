@@ -33,7 +33,7 @@
             {{ if ne .spotlight nil }}
               <td class="spotlight-description">
               {{range .spotlight.titles}}
-                {{ . }}<br>
+                {{ .presenter }} on <br><i>{{ .title }}</i><br><a href="{{ .url }}"><img class="pdf-download-icon" src="/img/file-pdf-solid.svg" alt="PDF Paper Download"/></a><br><br>
               {{end}}
               </td>
             {{ else }}
