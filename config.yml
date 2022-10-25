@@ -129,7 +129,7 @@ params:
           - 
             authors: "Felicia Ruppel, Florian Faion, Claudius Gläser and Klaus Dietmayer"
             presenter: "Felicia Ruppel"
-            title: "Can Transformer Attention Spread Give Insights Into Uncertainty of and Tracked Objects?"
+            title: "Can Transformer Attention Spread Give Insights Into Uncertainty of Detected and Tracked Objects?"
             url: "pdf/PNARUDE_IROS2022_Felicia_Ruppel_Can_Transformer_Attention_Spread_Give_Insights_Into_Uncertainty_of_Detected_and_Tracked_Objects.pdf"
             video:
           -
