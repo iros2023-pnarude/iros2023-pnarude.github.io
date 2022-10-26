@@ -251,7 +251,7 @@ params:
             presenter: "Yash Goel"
             title: "Predicting Dense and Context-aware Cost Maps for Semantic Robot Navigation"
             url: "pdf/PNARUDE_IROS2022_Yash_Goel_Narunas_Vaskevicius_Predicting_Dense_and_Context-aware_Cost_Maps_for_Semantic_Robot_Navigation.pdf"
-            video: 
+            video: "video/PNARUDE_IROS2022_Video-Presentation_Yash_Goel_Narunas_Vaskevicius_Predicting_Dense_and_Context-aware_Cost_Maps_for_Semantic_Robot_Navigation.mp4"
 
     - name: "Roundtable Discussion: Future Advances and Research Directions"
       time: "15:50"
