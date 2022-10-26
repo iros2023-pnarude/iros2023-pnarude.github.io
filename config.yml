@@ -152,7 +152,7 @@ params:
             video:
 
     - name: "Lunch"
-      time: "12:00"
+      time: "11:50"
 
     - name: "AI-based Autonomy"
       time: ""
