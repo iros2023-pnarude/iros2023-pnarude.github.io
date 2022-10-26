@@ -166,7 +166,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Understanding the Challenges When 3D Semantic Segmentation Faces Class Imbalanced and OOD Data"
+        title: "Understanding the Challenges when 3D Semantic Segmentation faces class-imbalanced and OOD Data"
         description: "TODO Talk Description"
         time: "13:00"
 
@@ -197,7 +197,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "Robotics in Agriculture: Toward the adaption of Robot(s) Behaviors to meet new Agroecological Expectation"
+        title: "Robotics in Agriculture: Towards the adaption of Robot(s) Behaviors to meet new Agroecological Expectation"
         description: "TODO Talk Description"
         time: "14:10"
 
