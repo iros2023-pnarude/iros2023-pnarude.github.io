@@ -34,10 +34,17 @@
               <td class="spotlight-description">
               {{range .spotlight.titles}}
                 {{ .presenter }} on <br><i>{{ .title }}</i><br><a href="{{ .url }}"><img class="pdf-download-icon" src="/img/file-pdf-solid.svg" alt="PDF Paper Download"/></a><br><br>
-              {{end}}
+              {{ end }}
               </td>
             {{ else }}
-            <td class="schedule-description">{{ .presentation.title }}</td>
+              {{ if ne .presentation.video_url nil }}
+                <td class="schedule-description" style="text-align: center;"> {{ .presentation.title }}
+                  <br/>
+                  <a style="display: block; margin: 0 auto;" href="{{ .presentation.video_url }}">
+                  <img class="video-download-icon" src="/img/video-solid.svg" alt="Link to Presentation Recording on YouTube"/></a></td>
+                  {{ else }}
+                <td class="schedule-description">{{ .presentation.title }}</td>
+              {{ end }}
             {{ end }}
           </tr>
         {{ else if ne .headline nil}}
