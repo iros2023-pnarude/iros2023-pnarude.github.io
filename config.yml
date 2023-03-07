@@ -181,7 +181,7 @@ params:
 
     - name: "Peter Mortimer"
       photo: "/img/mortimer.jpg"
-      university: "Bundeswehr University of Munich"
+      university: "University of the Bundeswehr Munich"
       url: "https://www.unibw.de/tas-en/institute/team/peter-jan-mortimer"
       email: "peter.mortimer@unibw.de"
       type: "co"
